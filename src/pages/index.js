@@ -33,7 +33,7 @@ const IndexPage = () => {
             >
              <center><h3>{user.name}</h3>
               <CardContent>
-               <Image src={User} style={{width: "100px" ,height: "100px"}}/>
+               <Image src={User} style={{width: "100px" ,height: "100px"}} alt='user icon'/>
                <Button variant="contained">
                <Link style={{ textDecoration: 'none',color:'white' }} 
                href={`/albums/${user.id}`} 
